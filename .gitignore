@@ -1,2 +1,15 @@
-# Secrets file containing API keys
+# Node modules
+node_modules/
+
+# Cloudflare Worker build artifacts
+.lwr/
+dist/
+.build/
+.cache/
+
+# Local environment files
+.env
 secrets.js
+
+# OS files
+.DS_Store
